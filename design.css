@@ -3,8 +3,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color :#d90e79;
-    
+    background-color: #d90e79;
+
 }
 
 li {
@@ -12,20 +12,22 @@ li {
 }
 
 li a {
-    font-family: 'Roboto';font-size: 22px;
+    font-family: 'Roboto';
+    font-size: 22px;
     display: block;
-    color : #f8f8f2;
+    font-weight: bold;
+    color: #f8f8f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color : black ;
+    background-color: black;
 }
 
 body {
-    background-color:rgb(38, 31, 57);
+    background-color: rgb(38, 31, 57);
 }
 
 .image_of_me {
@@ -35,38 +37,40 @@ body {
     margin: 0;
     position: absolute;
     top: 35%;
-    left : 60%;
+    left: 60%;
     background-image: url("assets/me.jpg");
-    background-size:cover;
+    background-size: cover;
     background-position-x: 35%;
     transform: scaleY(-1);
-    border-style : solid;
+    border-style: solid;
     border-color: #f8f8f2;
     border-radius: 300px;
     -webkit-border-radius: 300px;
     -moz-border-radius: 300px;
-    
+
 }
 
 .aboutme {
     position: absolute;
     top: 30%;
-    left : 10%;
+    left: 10%;
     height: 300;
     width: 700;
 
 }
 
 .Header {
-    font-family: 'Roboto';font-size: 30px;
-    color :#f8f8f2;
+    font-family: 'Roboto';
+    font-size: 30px;
+    color: #f8f8f2;
     text-decoration: underline;
     text-decoration-color: #f8f8f2;
 }
 
-.description{
-    font-family: 'Roboto';font-size: 22px;
-    color :#f8f8f2;
+.description {
+    font-family: 'Roboto';
+    font-size: 22px;
+    color: #f8f8f2;
 
 }
 
@@ -81,8 +85,8 @@ body {
 }
 
 .fa:hover {
-  opacity: 0.7;
-  padding: 26px;
+    opacity: 0.7;
+    padding: 26px;
 }
 
 /* Github */
@@ -99,8 +103,8 @@ body {
     position: absolute;
     bottom: 10px;
     left: 46%;
-  background: #55ACEE;
-  color: white;
+    background: #55ACEE;
+    color: white;
 
 }
 
@@ -110,6 +114,6 @@ body {
     position: absolute;
     bottom: 10px;
     left: 52%;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     color: white;
 }
